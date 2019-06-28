@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('./../fonts/Roboto-Regular.eot');
+	src: url('./../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+	url('./../fonts/Roboto-Regular.woff') format('woff'),
+	url('./../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto Medium';
+	src: url('./../fonts/Roboto-Medium.eot');
+	src: url('./../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+	url('./../fonts/Roboto-Medium.woff') format('woff'),
+	url('./../fonts/Roboto-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url('./../fonts/Roboto-Bold.eot');
+	src: url('./../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+	url('./../fonts/Roboto-Bold.woff') format('woff'),
+	url('./../fonts/Roboto-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'PT Sans Regular';
+	src: url('./../fonts/PTSans-Regular.eot');
+	src: url('./../fonts/PTSans-Regular.eot') format('embedded-opentype'),
+	url('./../fonts/PTSans-Regular.woff') format('woff'),
+	url('./../fonts/PTSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Open Sans Regular';
+	src: url('./../fonts/OpenSans-Regular.eot');
+	src: url('./../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+	url('./../fonts/OpenSans-Regular.woff') format('woff'),
+	url('./../fonts/OpenSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}	
+@font-face {
+	font-family: 'Gotham Pro Regular';
+	src: url('./../fonts/GothamPro.eot');
+	src: url('./../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+	url('./../fonts/GothamPro.woff') format('woff'),
+	url('./../fonts/GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+
+@mixin light {
+   font-family: 'Roboto Regular', sans-serif;	
+ }  
+@mixin regular {
+  font-family: 'Roboto Regular', sans-serif;
+}
+
+@mixin medium {
+  font-family: 'Roboto Medium', sans-serif;
+} 
+
+@mixin bold {
+  font-family: 'Roboto Bold';
+} 
+
+@mixin gotham {
+  font-family: 'Gotham Pro Regular';
+}
+
+@mixin text {
+  font-family: "PT Sans Regular";
+}
+
+@mixin opensans {
+  font-family: 'Open Sans Regular';
+}
