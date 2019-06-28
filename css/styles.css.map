@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/styles.sass",
+        "../sass/_color.sass",
+        "../sass/_fonts.sass",
+        "../sass/_interface.sass"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
